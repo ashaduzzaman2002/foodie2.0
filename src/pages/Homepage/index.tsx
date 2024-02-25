@@ -30,7 +30,7 @@ const HomepagePage: React.FC = () => {
                 <div className="header-row ">
                   <Img
                     className="h-[51px]"
-                    src="images/img_logo.svg"
+                    src="/images/img_logo.svg"
                     alt="Logo"
                   />
                   <div className="mobile-menu">
@@ -100,7 +100,7 @@ const HomepagePage: React.FC = () => {
                   leftIcon={
                     <Img
                       className="h-6 sm:hidden m-[13px]"
-                      src="images/img_cart.svg"
+                      src="/images/img_cart.svg"
                       alt="cart"
                     />
                   }
@@ -174,7 +174,7 @@ const HomepagePage: React.FC = () => {
               </div>
               <Img
                 className="h-[502px] md:h-auto object-cover"
-                src="images/img_illustration.png"
+                src="/images/img_illustration.png"
                 alt="illustration"
               />
             </div>
